@@ -1,0 +1,17 @@
+To get started I had to first do the following:
+
+1)Install the coverage package
+pip install coverage
+
+2) Make sure that my files are in the same directory
+
+3) Set up a unit test file
+
+4) run a coverage test from the command line. This will generate a coverage report called explanation
+coverage run your_test_file_name
+
+5) run a coverage report in the command line to eyeball your code coverage
+coverage report
+
+6) run a coverage report in html to view what lines were not covered by your test file
+coverage html
